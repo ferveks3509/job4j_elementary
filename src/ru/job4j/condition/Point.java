@@ -16,4 +16,5 @@ public class Point {
             System.out.println("result (0, 4) to (4, 4 )" + result3);
             System.out.println("result (0, 5) to (5, 3)" + result4);
     }
+
 }
