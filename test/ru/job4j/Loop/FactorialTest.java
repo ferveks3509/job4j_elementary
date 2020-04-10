@@ -14,4 +14,11 @@ public class FactorialTest {
         assertThat(rsl, is(expected));
     }
 
+    @Test
+    public void calc0() {
+        int rsl = Factorial.calc(0);
+        int expected = 1;
+        assertThat(rsl, is(expected));
+    }
+
 }
