@@ -16,7 +16,7 @@ public class FindLoopTest {
         assertThat(result, is(expect));
     }
     @Test
-    public void whenArryHasHas10Then0() {
+    public void whenArrayHasHas10Then0() {
         FindLoop find = new FindLoop();
         int[] input = new int[] {10, 7, 2};
         int value = 10;
@@ -27,10 +27,10 @@ public class FindLoopTest {
     @Test
     public  void WhenArrayHas15then0() {
         FindLoop find = new FindLoop();
-        int[] input = new int[] {15, 1, 1};
+        int[] input = new int[] {9, 2, 1};
         int value = 10;
         int result = find.indexOf(input, value);
-        int expect = 0;
+        int expect = -1;
         assertThat(result, is(expect));
     }
 }
