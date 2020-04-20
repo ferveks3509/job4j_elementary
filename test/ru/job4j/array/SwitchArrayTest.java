@@ -14,10 +14,17 @@ public class SwitchArrayTest {
         assertThat(rsl, is(expect));
     }
     @Test
-    public void whenSwap1to2() {
+    public void whenSwap1to3() {
         int[] input = {1, 2, 3, 4};
         int[] expect = {1, 4, 3, 2};
         int[] rsl = SwitchArray.swap(input,1, input.length -1);
         assertThat(rsl, is(expect));
+    }
+    @Test
+    public void whenSwap2to3() {
+        int[] input = {1, 2, 3, 4};
+        int[] expected = {1, 2, 4, 3};
+        int[] rsl = SwitchArray.swap(input, 2, input.length -1);
+        assertThat(rsl, is(expected));
     }
 }
