@@ -18,10 +18,10 @@ public class FindLoopTest {
     @Test
     public void whenArrayHasHas10Then0() {
         FindLoop find = new FindLoop();
-        int[] input = new int[] {10, 7, 2 , 1};
+        int[] input = new int[] {7, 2, 10 , 1};
         int value = 10;
         int result = find.indexOf(input, value);
-        int expect = 0;
+        int expect = 2;
         assertThat(result, is(expect));
     }
     @Test
