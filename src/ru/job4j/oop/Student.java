@@ -13,10 +13,6 @@ public class Student {
         Student petya = new Student();
         String song = "I believe i can fly";
         petya.music(song);
-        petya.music(song);
-        petya.music(song);
-        petya.song();
-        petya.song();
         petya.song();
     }
 }
