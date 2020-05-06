@@ -13,6 +13,6 @@ public class Jukebox {
 
     public static void main(String[] args) {
         Jukebox player = new Jukebox();
-        player.music(2);
+        player.music(3);
     }
 }
