@@ -1,11 +1,13 @@
-package ru.job4j.condition;
+package ru.job4j.oop;
 
-public class Triangle {
-    private Point first;
-    private Point second;
-    private Point third;
+import ru.job4j.oop.Point2;
 
-    public Triangle(Point ap, Point bp, Point cp) {
+public class Triangle2 {
+    private Point2 first;
+    private Point2 second;
+    private Point2 third;
+
+    public Triangle2(Point2 ap, Point2 bp, Point2 cp) {
         this.first = ap;
         this.second = bp;
         this.third = cp;
