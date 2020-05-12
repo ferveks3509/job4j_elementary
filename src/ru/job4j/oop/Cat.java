@@ -13,7 +13,7 @@ public class Cat {
         System.out.println("There are food for Peppy:");
         Cat peppy = new Cat();
         peppy.eat("kotleta"); // если не указать то умолчанию, во всех полях объекта записываются значения по умолчанию String - Null
-        peppy.show();
+        peppy.show();  // вызов метода указанием объекта . обращение к методу
         System.out.println("There are food for Sparky:");
         Cat sparky = new Cat();
         sparky.eat("fish"); // если не указать то умолчанию, во всех полях объекта записываются значения по умолчанию String - Null
