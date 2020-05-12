@@ -1,12 +1,12 @@
 package ru.job4j.oop;
 
 public class Cat {
-    private String food;
+    private String food; //создаем поле объекта
 
-    public void eat(String meat) {
+    public void eat(String meat) { //инициализируем поле объекта
         this.food = meat;
     }
-    public void show() {
+    public void show() { //метод для вывода поля в консоль
         System.out.println(this.food);
     }
     public static void main(String[] args) {
