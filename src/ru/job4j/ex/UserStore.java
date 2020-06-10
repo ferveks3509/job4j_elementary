@@ -9,21 +9,21 @@ public class UserStore {
                 rsl = users[i];
                 break;
             }
+        }
             if (rsl == null) {
                 throw new UserNotFoundException("User not found");
             }
-        }
         return rsl;
     }
 
     public static boolean validate(User user) throws UserInvalidException {
         boolean rsl = user.isValid();
         boolean result = user.getUserName().length() > 3;
-        if (user.isValid() == false) {
+        if (!rsl) {
             throw new UserInvalidException("Invalid user");
         }
 
-        if (result == false) {
+        if (!result) {
             throw new UserInvalidException("Length name less of 3");
         }
         return rsl && result;
