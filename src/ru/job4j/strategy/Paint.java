@@ -7,7 +7,11 @@ public class Paint {
 
     public static void main(String[] args) {
         Paint context = new Paint();
-        context.draw(new Triangle());
-        context.draw(new Square());
+        Shape triangle = new Triangle();
+        Shape square = new Square();
+        context.draw(triangle);
+        context.draw(square);
+        // context.draw(new Triangle);
+        // context.draw(new Square);
     }
 }
